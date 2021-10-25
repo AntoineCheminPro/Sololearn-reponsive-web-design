@@ -5,6 +5,12 @@ body {
     line-height: 1.45;
 }
 
+.container {
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+    max-width: 900px;
+}
+
 
 /* -------- HEADER -------- */
 
@@ -17,7 +23,7 @@ header {
 
 h1 {
     font-size: 48px;
-    margin: 0 0 26px 0;
+    margin: 0 0 16px 0;
 }
 
 h2 {
@@ -38,6 +44,10 @@ h2 {
     cursor: pointer;
 }
 
+.btn:hover {
+    background: red;
+}
+
 
 /* -------- END HEADER -------- */
 
@@ -45,6 +55,22 @@ section {
     padding: 40px 0;
     text-align: center;
 }
+
+
+/* -------- FEATURE -------- */
+
+.feature {
+    width: 32%;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.feature img {
+    width: 40%;
+}
+
+
+/* -------- END FEATURE -------- */
 
 .features {
     background: #FFFFFF;
